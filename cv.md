@@ -1,7 +1,6 @@
-## Anhelina Sviatynchuk
+# Anhelina Sviatynchuk
 
-### Contacts
-*********
+## Contacts
 anhelina.sviatynchuk@gmail.com
 
 ### Profile
@@ -50,12 +49,13 @@ issues, share files, and more.
 
 >Technologies: Express.js, PostgreSQL + Sequelize, Elasticsearch.
 *********
+
 In this role, I successfully managed to:
-- Wrote unit tests, boosting code coverage from 63% to 85%.
-- Refactored the code by replacing hardcoded strings in error handling
+* Wrote unit tests, boosting code coverage from 63% to 85%.
+* Refactored the code by replacing hardcoded strings in error handling
 and HTTP responses with constants in an error codes module, making
 the code more consistent and easier to maintain.
-- Conducted regular code reviews, which improved the quality of the
+* Conducted regular code reviews, which improved the quality of the
 code in the team
 
 ### Education
