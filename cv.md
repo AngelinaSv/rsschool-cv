@@ -38,7 +38,7 @@ The app allows users to find available locations and book desk or
 room, receive booking reminders, and upload their COVID certificate
 for HR verification before being granted access to the booking system.
 
->Technologies: Typescript, Nest.js, PostgreSQL + Typeorm.ё
+>Technologies: Typescript, Nest.js, PostgreSQL + Typeorm.
 
 **Node.js Developer** 11/2022-9/2024
 
