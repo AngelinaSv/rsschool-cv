@@ -22,7 +22,7 @@ Experienced backend developer specializing in Node.js.
 *********
 ```
 function multiply(a, b){
-  return a * b
+  return a * b;
 }
 ```
 
