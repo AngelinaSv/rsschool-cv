@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav_list">
+        <li><a href="#information">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#code-example">Code example</a></li>
+        <li><a href="#pet-projects">Projects</a></li>
+        <li><a href="#language">Language</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="resume">
+      <div class="row">
+        <div>
+          <div class="container">
+            <div id="information" class="information">
+              <h1>Anhelina Sviatynchuk</h1>
+              <h2 class="margin">Future Full-stack Developer</h2>
+              <div class="picture">
+                <img src="./assets/img/avatar.jpg" width="132" height="132" alt="avatar">
+              </div>
+              <p class="small-font">Experienced backend developer specializing in Node.js.</p>
+              <p class="small-font">Able to work independently and in a team, quickly understanding business logic and writing clean, maintainable code. Actively developing frontend skills with the goal of becoming a full-stack developer and expanding technical expertise.</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="contact" class="contact">
+              <h2>CONTACT</h2>
+              <ul>
+                <li class="base-font">Ukraine, Odesa</li>
+                <li class="base-font">anhelina.sviatynchuk@gmail.com</li>
+                <li class="base-font">afina_vs</li>                
+              </ul>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div id="skill" class="skill">
+              <h2>SKILL</h2>
+              <ul>
+                <li>Node.js, Typescript, Express, Nest.js</li>
+                <li>PostgreSQL, Sequelize, Typeorm</li>
+                <li>Jest, Swagger, Postman</li>
+                <li>Git</li>
+                <li>HTML, CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="container">
+            <div id="education" class="education">
+              <h2>EDUCATION</h2>
+              <h3>Bachelor - Radio Engineering 9/2015-6/2019</h3>
+              <p class="base-font">Odessa National Polytechnic University - Ukraine</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="experience" class="experience">
+              <h2>EXPERIENCE</h2>
+              <h3>Junior Node.js Developer</h3>
+              <p class="small-font opacity">Zazmic - 6/2021-11/2022</p>
+              <p class="base-font">Application for booking workspaces.</p>
+              <p class="base-font">The app allows users to find available locations and book desk or room, receive booking reminders, and upload their COVID certificate for HR verification before being granted access to the booking system.</p>
+              <p class="base-font" style="margin-bottom: 20px;"><b>Technologies:</b> Typescript, Nest.js, PostgreSQL + Typeorm.</p>
+
+              <h3>Node.js Developer</h3>
+              <p class="small-font opacity">Zazmic - 11/2022-9/2024</p>
+              <p class="base-font">Software for project management.</p>
+              <p class="base-font">It allows users to create product roadmaps, plan iterations, track issues, share files, and more.</p>
+              <p class="base-font" style="margin-bottom: 20px;"><b>Technologies:</b> Express.js, PostgreSQL + Sequelize, Elasticsearch</p>
+
+              <p class="base-font"><b>In this role, I successfully managed to:</b></p>
+              <ul>
+                <li>Wrote unit tests, boosting code coverage from 63% to 85%.</li>
+                <li>Refactored the code by replacing hardcoded strings in error handling and HTTP responses with constants in an error codes module, making
+the code more consistent and easier to maintain.</li>
+                <li>Conducted regular code reviews, which improved the quality of the
+code in the team</li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="code-example" class="code-example">
+          <h2>CODE EXAMPLE</h2>
+          <div class="code-background">
+            <pre class="code">
+
+function multiply(a, b){
+  return a * b;
+}
+
+            </pre>
+            </div>
+            <h2 id="pet-projects">PET PROJECTS</h2>
+            <p class="base-font">My first expirience with React - <a href="https://github.com/AngelinaSv/testReact" class="link">https://github.com/AngelinaSv/testReact</a></p>
+            <p class="base-font">REST API for a portfolio publication site - <a href="https://github.com/AngelinaSv/portfolio-api"  class="link">https://github.com/AngelinaSv/portfolio-api</a></p>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div id="language" class="language">
+            <h2>LANGUAGE</h2>
+            <p class="base-font">Russian - <b>C2</b></p>
+            <p class="base-font">Ukrainian - <b>B2</b></p>
+            <p class="base-font">English - <b>A2</b></p>
+            <p class="base-font opacity">I have practical experience communicating within a development team. Continuously improving language skills to interact more effectively.</p>
+          </div>
+        </div>
+    </div>
+  </main>
+
+
+  <div class="container">
+    <footer class="footer">
+      <div class="row">
+        <a class="logo-link" href="https://rs.school/courses/javascript-ru"><img class="logo" src="./assets/svg/rs-school-logo.svg" alt="logo"></a>
+        <p class="opacity">2025</p>
+        <a class="github-link" href="https://github.com/AngelinaSv"><img src="./assets/svg/icons8-github.svg" alt="github link"></a>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
