@@ -30,7 +30,7 @@
   font-style: normal;
 }
 
-h1, h2, h3, p, pre {
+h1, h2, h3, p, pre, li {
   color: #424040;
 }
 
@@ -224,6 +224,9 @@ body {
   padding: var(--container-padding);
 }
 
+.contact li {
+  list-style: none;
+}
 
 .skill {
   width: 180px;
